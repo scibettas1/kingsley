@@ -1,0 +1,149 @@
+<!-- brand colors for refrence
+#b89056ff
+#1a274d -->
+
+
+<link rel="stylesheet" href="https://use.typekit.net/fut3yxe.css">
+
+<style>
+   .text-white {
+      color: #fff !important;
+      fill: #fff !important;
+   }
+
+   .icon,
+   .number {
+      text-decoration: none;
+   }
+
+   .number {
+      font-family: aviano-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      display: inline-block;
+      margin: auto;
+      padding: 0px 19px;
+      color: #fff !important;
+   }
+
+   .login-btn {
+      font-family: aviano-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      color: #fff;
+      background: none;
+      display: inline-block;
+      margin: 6px;
+   }
+
+   .login-btn:hover,
+   .number:hover {
+      text-decoration: underline !important;
+      color: #b89056ff !important;
+   }
+
+   .right {
+      position: relative;
+      float: right;
+   }
+
+   .full-width {
+      width: 100%;
+   }
+
+   .text-dark {
+      color: #f8f9fa !important;
+   }
+
+   .navbar-toggler {
+      font-size: 2.25rem;
+   }
+
+   #ysi-mobile-navbar.active-navbar,
+   .navbar-z-index.active-navbar,
+   .active-navbar,
+   .bg-white {
+      background-color: #1a274d !important;
+   }
+
+   .navbar-light .navbar-nav .nav-link {
+      color: #fff;
+      font-size: calc(23px + 0.5vw);
+      font-family: aviano-didone, serif;
+      font-weight: 700;
+      padding: 12px 0px;
+      line-height: calc(24px + 0.5vw);
+   }
+
+   #ysi-navbar.navbar-light .navbar-nav .show>.nav-link,
+   #ysi-navbar.navbar-light .navbar-nav .active>.nav-link,
+   #ysi-navbar.navbar-light .navbar-nav .nav-link.show,
+   #ysi-navbar.navbar-light .navbar-nav .nav-link.active,
+   .navbar-light .navbar-nav .nav-link:hover,
+   .navbar-light .navbar-nav .nav-link:focus,
+   #ysi-navbar .nav-item.active .nav-link,
+   #ysi-navbar .nav-item .nav-link:focus {
+      color: #b89056ff;
+   }
+
+   .navbar:not(.ysi-navbar-mobile) .navbar-collapse .custom-scroll.h-100vh {
+      width: fit-content;
+   }
+
+
+   /* <---------------------mobile nav------------------------> */
+   .font-heading,
+   .heading {
+      font-family: "aviano-sans", sans-serif;
+   }
+
+   a.nav-link {
+      color: #fff;
+   }
+
+   /* <--------------------------------------------------------> */
+
+
+
+   .show-ipad {
+      display: none;
+   }
+
+   @media only screen and (max-width: 1370px) {
+      .hide-on-mobile {
+         display: none;
+      }
+
+      .show-ipad {
+         display: inline-block;
+      }
+   }
+</style>
+
+<div class="full-width hide-on-mobile">
+   <div class="right text-white">
+      <a data-selenium-id="btn-02" class="btn  login-btn" target="_blank"
+         href="/onlineleasing/the-kingsley0/guestlogin.aspx">
+         Apply Now
+      </a> |
+      <a data-selenium-id="btn-02" class="btn  login-btn" target="_blank"
+         href="residentservices/the-kingsley0/userlogin.aspx">
+         Resident Login
+      </a> |
+      <a onclick="fireGaPhone()" href="tel:(973) 488-6409" class="number color-inherit">
+         <span aria-hidden="true" class="icon fa-flip-horizontal fas fa-phone text-white"></span>
+         <span>(973) 488-6409</span>
+      </a>
+   </div>
+</div>
+
+<div class="full-width show-ipad">
+   <div class="right text-white">
+      <a onclick="fireGaPhone()" href="tel:(973) 488-6409" class="number color-inherit">
+         <span aria-hidden="true" class="icon fa-flip-horizontal fas fa-phone text-white"></span>
+         <span>(973) 488-6409</span>
+      </a>
+   </div>
+</div>

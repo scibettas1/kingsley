@@ -1,0 +1,51 @@
+<!-- First row -->
+<style>
+    .trans-bg2 {
+        background: radial-gradient(ellipse at center, #1a274d, #fff0);
+        padding: 20px;
+    }
+
+    .my-full-border {
+        border: 6px solid #b89056ff;
+    }
+
+    .crop-img {
+        width: min(360px, 48%);
+        height: 500px;
+        object-fit: cover;
+        margin: 5px auto;
+        padding: 0px;
+    }
+
+    .crop-img:first-child {
+        object-position: -165px center;
+        /* transform: scaleX(-1); */
+    }
+    .crop-img:last-child {
+        object-position: -251px center;
+    }
+    @media (max-width: 420px) {
+        .crop-img {
+            width: 360px;
+        }
+    }
+</style>
+
+
+<div class="trans-bg2">
+    <div class="myh5 white-text mb-4 text-shadow-1">Residences</div>
+    <div class="myp">Make the most of home. Graciously proportioned and beautifully finished, the residences at
+        The Kingsley convey
+        a modern view of luxury, with features that have been tailored to elevate your everyday.</div>
+</div>
+
+<!-- second row -->
+
+<row class="row" style="min-height:516px;">
+    <col span="4"><img class="crop-img my-full-border"
+        src="https://cdngeneralcf.rentcafe.com/dmslivecafe/2/70799/5083-6328-TheKingsley040422-82.jpg"></col>
+    <col span="4"><img class="crop-img my-full-border"
+        src="https://cdngeneralcf.rentcafe.com/dmslivecafe/2/70799/kingsley20220404_0012.jpg"></col>
+    <col span="4"><img class="crop-img my-full-border"
+        src="https://cdngeneralcf.rentcafe.com/dmslivecafe/2/70799/7501-4742-TheKingsley040422-66.jpg"></col>
+</row>
